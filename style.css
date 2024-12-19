@@ -2,4 +2,30 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    color: #fff;
+    padding: .5rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+.logo img{
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
 }
